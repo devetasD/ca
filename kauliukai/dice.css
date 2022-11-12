@@ -1,0 +1,90 @@
+body {
+  background: beige;
+}
+.wrapper {
+  margin: 64px auto;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  /* align-items: center; */
+}
+.face {
+  display: flex;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+}
+.center {
+  display: flex;
+  margin: auto;
+  justify-content: flex-end;
+  width: 150px;
+  height: 150px;
+}
+.dot {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+.one {
+  justify-content: center;
+  align-items: center;
+}
+.two {
+  justify-content: space-between;
+}
+.two .dot:last-child {
+  align-self: flex-end;
+}
+.three {
+  justify-content: space-between;
+}
+.three .dot:last-child {
+  align-self: flex-end;
+}
+.three .dot:nth-child(2) {
+  align-self: center;
+}
+.container {
+  display: flex;
+}
+.four {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.four .container {
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.five {
+  justify-content: space-between;
+}
+.five {
+  justify-content: space-between;
+}
+.five .container {
+  justify-content: space-between;
+  flex-direction: column;
+}
+.five .container:nth-of-type(2) {
+  align-self: center;
+}
+
+/* .center-five {
+  margin: auto;
+} */
+.six {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.six .container {
+  justify-content: space-between;
+  flex-direction: column;
+}
